@@ -17,10 +17,6 @@
         name: 'jQuery',
         img: 'resource/icon-jquery.jpg',
         intro: 'JS的一个类库，基本上可以熟练使用。'
-    }, {
-        name: 'AngularJS',
-        img: 'resource/icon-angular.jpg',
-        intro: '前端框架，用起来还是比较愉快的，极大减轻了对数据方面的处理，但是框架比较大。'
     },  {
         name: 'BootStrap',
         img: 'resource/icon-bootstrap.jpg',
@@ -30,10 +26,25 @@
         img: 'resource/icon-ps.jpg',
         intro: '熟练使用Photoshop，曾经做过几个网站的UI设计。'
     }, {
-        name: 'Git',
-        img: 'resource/icon-git.jpg',
-        intro: '一直在使用Git做版本管理工具。'
-    }];
+        name: 'Dreamweaver',
+        img: 'resource/icon_dw.jpg',
+        intro: '熟练使用Dreamweaver，进行网页布局和制作。'
+    }, {
+        name: 'fireworks',
+        img: 'resource/icon_fw.jpg',
+        intro: '熟练使用fireworks,对页面进行切图制作和设计'
+    }, {
+        name: 'Adobe Flash',
+        img: 'resource/icon_fl.jpg',
+        intro: '能够使用Flash,做出简单的动画特效'
+    }, {
+        name: 'Adobe Illustrator',
+        img: 'resource/icon_ai.jpg',
+        intro: '了解并会使用Adobe Illustrator，做出矢量图。'
+    
+	}];
+	 
+	
 
     app.skill = new Vue({
         el: '#jSkill',
@@ -43,50 +54,37 @@
         }
     });
 
-    var exps = [{
-      company: '海致网络技术（北京）有限公司',
-      from: '2013-10',
+var exps = [{
+      company: '极光工作室',
+      from: '2015-6',
       to: '',
       projects: [{
-        name: 'BDP商业数据平台',
-        intro: '数据分析及可视化软件。<a href="https://me.bdp.cn" target="_blank" class="link">个人版体验</a>',
-        tags: ['AngularJS','NodeJS','Grunt']
+        name: '外包',
+        intro: '搭建了极光管理后台，使用bootstrap搭建，使用了部分vue',
+        tags: ['jQuery','Vue.js']
       },{
         name: '其它各种项目略过',
         intro: '......',
-        tags: ['jQuery','Smarty']
+        tags: ['HTML5+CSS3','Phtoshop','UI','Flash']
       }],
     },{
-      company: '北京艾德思奇科技有限公司',
-      from: '2013-06',
-      to: '2013-10',
+      company: '盛景网联科技股份有限公司',
+      from: '2014-3',
+      to: '2015-4',
       projects: [{
-        name: '艾德聚合平台重构',
-        intro: '艾德聚合平台是为移动APP开发者提供的一个信息管理平台，功能是发布应用，展示应用相关数据。',
-        tags: ['jQuery']
+        name: '盛景企业大学',
+        intro: '中小企业服务平台 <a href="http://www.shengjing360.com/" target="_blank" class="link">个人版体验</a>',
+        tags: ['Html+css','Phtoshop','jQuery',]
       }],
     },{
-      company: '中国科学院化学工程研究所',
-      from: '2012-04',
-      to: '2013-05',
+      company: '苏宁云商集团（北京）股份有限公司',
+      from: '2013-8',
+      to: '2014-3',
       projects: [{
-        name: '中国循环经济技术平台子项目--企业黄页',
-        intro: '包括企业黄页项目和公司站点项目，均为门户性质的网站。<br />负责UI设计和前端开发工作。',
-        tags: ['jQuery','Phtoshop']
-      },{
-        name: '化合物搜索引擎ChemDB Portal改版',
-        intro: '学术性搜索引擎+门户性质信息网站，化学品电子商务类网站。<br />负责网站新版本UI设计和前端重构工作。',
-        tags: ['jQuery','Phtoshop']
-      }],
-    },{
-      company: '北京艾迪创想信息科技有限公司',
-      from: '2010-10',
-      to: '2012-11',
-      projects: [{
-        name: '开吃吧',
-        intro: '餐饮O2O，高校、白领外卖网。<br />自主创业项目，包括PC版、移动html5版，前端独立开发。',
-        tags: ['jQuery']
-      }]
+        name: '红孩子母婴',
+        intro: '包括p图，美化页面，根据要求写出静台态页面。  <a href="http://redbaby.suning.com/" target="_blank" class="link">红孩子</a>',
+        tags: ['Html+css','Phtoshop']
+		  }]
     }];
     app.exp = new Vue({
         el: '#jExp',
