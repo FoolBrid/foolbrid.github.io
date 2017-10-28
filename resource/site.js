@@ -82,7 +82,7 @@ var exps = [{
       to: '2014-3',
       projects: [{
         name: '红孩子母婴',
-        intro: '包括p图，美化页面，根据要求写出静台态页面。  <a href="http://redbaby.suning.com/" target="_blank" class="link">红孩子</a>',
+        intro: '包括p图，美化页面，根据要求写出静态页面。  <a href="http://redbaby.suning.com/" target="_blank" class="link">红孩子</a>',
         tags: ['Html+css','Phtoshop']
 		  }]
     }];
